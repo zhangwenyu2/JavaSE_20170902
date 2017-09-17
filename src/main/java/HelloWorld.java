@@ -20,8 +20,8 @@ public class HelloWorld {
         System.out.println(g);
         System.out.println(z);
 
-        long y=2147473648L;
-        System.out.println(y);
+        long y1=2147473648L;
+        System.out.println(y1);
 
         char c1='\377';
         System.out.println(c1);
@@ -33,5 +33,16 @@ public class HelloWorld {
 
         System.out.println("3"+1+2);
         System.out.println(1+2+"3");
+
+        char a1='A';
+        int a2=65;
+        boolean s2=a1!=a2;
+        System.out.println(s2);
+
+        int x=1;
+        int y=0;
+        boolean z1=(x>y)||(x++==y);
+        System.out.println(z1);
+        System.out.println(x);
     }
 }
