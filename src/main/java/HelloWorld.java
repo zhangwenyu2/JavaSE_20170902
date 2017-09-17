@@ -44,5 +44,14 @@ public class HelloWorld {
         boolean z1=(x>y)||(x++==y);
         System.out.println(z1);
         System.out.println(x);
+
+        boolean m=true;
+        m &=false;
+        System.out.println(m); //布尔类型得到的依旧是布尔类型
+
+        int n=1;
+        n &=1;
+        System.out.println(n); //按位与得到的也是相应形式
+
     }
 }
