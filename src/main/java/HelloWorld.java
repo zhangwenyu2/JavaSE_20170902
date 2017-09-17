@@ -30,5 +30,8 @@ public class HelloWorld {
 
         String s1=null;
         System.out.println(s1);
+
+        System.out.println("3"+1+2);
+        System.out.println(1+2+"3");
     }
 }
