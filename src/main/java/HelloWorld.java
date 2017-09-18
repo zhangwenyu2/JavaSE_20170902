@@ -53,5 +53,12 @@ public class HelloWorld {
         n &=1;
         System.out.println(n); //按位与得到的也是相应形式
 
+        int l=-1;
+        int z2=l>>>1;
+        int z3=l>>1;
+
+        System.out.println(z2);
+        System.out.println(z3);
+
     }
 }
