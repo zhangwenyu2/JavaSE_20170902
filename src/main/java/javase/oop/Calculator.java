@@ -31,5 +31,12 @@ public class Calculator {
         this.y = y;
     }
 
+    int divide() {
+        m();
+        return x / y;
+    }
 
+    private void m() {
+        System.out.println("...");
+    }
 }

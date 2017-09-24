@@ -19,7 +19,24 @@ public class Test extends Object {
         accessModifierTest.m2();
         accessModifierTest.m3();
         accessModifierTest.m4();
+
+
+        Calculator calculator = new Calculator();
+//      calculator.y = 0;
+
+        calculator.setX(100);
+        calculator.setY(10);
+
+        System.out.println(calculator.getY());
+
+        System.out.println(calculator.divide());
+
+        System.out.println("done.");
     }
 
 
 }
+
+
+
+
