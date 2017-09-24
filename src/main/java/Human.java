@@ -9,9 +9,9 @@ public class Human {
     double weight;
     boolean married;
 
-//    Human() { // default constructor
-//
-//    }
+    Human() { // default constructor
+
+    }
 
     public Human(String name) {
         this.name = name;
