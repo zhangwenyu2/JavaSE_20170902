@@ -15,6 +15,6 @@ public class Chinese extends Human {
         chinese.study("Java SE");
 
         System.out.println(chinese.shengXiao);
-        chinese.speakChinese;
+        chinese.speakChinese();
     }
 }
