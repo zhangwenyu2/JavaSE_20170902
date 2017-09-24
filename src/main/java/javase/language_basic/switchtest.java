@@ -1,3 +1,5 @@
+package javase.language_basic;
+
 import java.util.Scanner;
 public class switchtest {
     public static void main(String[] args) {

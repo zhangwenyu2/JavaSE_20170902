@@ -1,3 +1,5 @@
+package javase.oop;
+
 // class = fields + methods
 public class Human {
 
@@ -39,6 +41,10 @@ public class Human {
     int walk() {
         // ...
         return 100;
+    }
+
+    void eat(String food) {
+        System.out.println("eat " + food);
     }
 
     public static void main(String[] args) {

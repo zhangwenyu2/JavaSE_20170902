@@ -1,3 +1,5 @@
+package javase.oop;
+
 public class Vehicle {
 
     //fields

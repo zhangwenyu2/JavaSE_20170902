@@ -1,3 +1,5 @@
+package javase.language_basic;
+
 public class breakTest {
     public static void main(String[] args) {
         test: //label

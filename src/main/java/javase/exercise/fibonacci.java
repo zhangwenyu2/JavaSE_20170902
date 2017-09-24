@@ -1,3 +1,5 @@
+package javase.exercise;
+
 import java.util.Scanner;
 
 //斐波那契数列：0、1、1、2、3、5、8，求f(n);

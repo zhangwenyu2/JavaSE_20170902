@@ -1,3 +1,5 @@
+package javase.exercise;
+
 import java.util.Scanner;
 
 public class MaxandMin {

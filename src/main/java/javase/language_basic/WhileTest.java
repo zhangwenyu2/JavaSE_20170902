@@ -1,3 +1,5 @@
+package javase.language_basic;
+
 public class WhileTest {
     public static void main(String[] args) {
         int i=0;

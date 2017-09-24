@@ -1,3 +1,5 @@
+package javase.exercise;
+
 public class shuixianFlower {
     public static void main(String[] args) {
         for (int i = 100; i <1000 ; i++) {
