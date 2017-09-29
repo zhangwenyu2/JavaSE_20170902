@@ -3,7 +3,7 @@ package javase.exercise;
 import java.util.Scanner;
 
 //斐波那契数列：0、1、1、2、3、5、8，求f(n);
-public class fibonacci {
+public class E51_fibonacci {
 
     static int f(int n) {
         if(n==0 || n==1){

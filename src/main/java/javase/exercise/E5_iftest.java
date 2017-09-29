@@ -1,6 +1,6 @@
-package javase.language_basic;//Exercise Five 利用条件运算符的嵌套完成成绩登记的判断。
+package javase.exercise;//Exercise Five 利用条件运算符的嵌套完成成绩登记的判断。
 import java.util.Scanner;
-public class iftest {
+public class E5_iftest {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("input int score:");

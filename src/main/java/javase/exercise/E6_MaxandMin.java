@@ -2,7 +2,7 @@ package javase.exercise;
 
 import java.util.Scanner;
 
-public class MaxandMin {
+public class E6_MaxandMin {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("input m:");

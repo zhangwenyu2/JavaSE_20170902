@@ -1,6 +1,6 @@
 package javase.exercise;
 
-public class shuixianFlower {
+public class E3_shuixianFlower {
     public static void main(String[] args) {
         for (int i = 100; i <1000 ; i++) {
             int g=i%10; // 对10求模

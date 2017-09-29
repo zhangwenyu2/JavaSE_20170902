@@ -1,6 +1,6 @@
 package javase.exercise;
 
-public class PrimeJudgement {
+public class E2_PrimeJudgement {
     public static void main(String[] args) {
         int counter=0;
         for (int i = 101; i < 201; i++) {
