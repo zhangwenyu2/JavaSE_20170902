@@ -1,6 +1,6 @@
 package javase.exercise;
 
-
+//找出1000以内的完数
 public class E9_CompleteNumber {
     public static void main(String[] args) {
 
