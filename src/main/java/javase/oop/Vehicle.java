@@ -1,8 +1,8 @@
 package javase.oop;
 
-public class Vehicle {
+public class Vehicle { //访问限定修饰符+class+类名
 
-    //fields
+    //fields    //访问限定修饰符+类型名+域名
     String brand;
     double price;
     double weight;
@@ -11,7 +11,7 @@ public class Vehicle {
 
 
 
-    //methods
+    //methods    //访问限定修饰符+返回类型+方法名（【参数列表】）{方法体}
     void run(){
 
     }
