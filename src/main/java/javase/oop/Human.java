@@ -31,7 +31,7 @@ public class Human {
     // methods
     String study(String book) {
         System.out.println(name + " read " + book);
-        return "homework...";
+        return "Add_E1...";
     }
 
     void work(int hours, String device) {
