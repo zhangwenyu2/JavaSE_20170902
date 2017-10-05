@@ -20,7 +20,7 @@ public class Chinese extends Human {
 
     void eat(String food) { // overwrite 重写  override 覆盖
         System.out.println("吃、" + food);
-    }
+    } //子类对父类的重写或覆盖
 
     int walk(int i) {
 
@@ -47,7 +47,8 @@ public class Chinese extends Human {
         System.out.println(Lisi instanceof Human);
         System.out.println(Lisi instanceof Chinese);
 
-
+        System.out.println(chinese.walk());  //调用父类
+        System.out.println(chinese.walk(2));  // 调用子类
 
     }
 }
