@@ -1,4 +1,4 @@
-package javase.oop;
+package javase.collection;
 
 public class Array3D {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Array3D {
 
                     System.out.println(vector[i][j][k]);
 
-                } // 255
+                } // 255——多维数组的最大维度
             }
         }
     }

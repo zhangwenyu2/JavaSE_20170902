@@ -1,4 +1,4 @@
-package javase.oop;
+package javase.collection;
 
 public class Array2D {
     public static void main(String[] args) {
