@@ -14,7 +14,10 @@ public class ArrayTest {
         //声明和初始化一起
         String[] strings=new String[5];
 
+        double[] doubles={1.2,2.3,4.5};
+
         System.out.println(ints[0]);
+        System.out.println("---"+doubles.length);
 
         for (int i = 0; i <ints.length ; i++) {
             ints[i]=i;
@@ -22,6 +25,11 @@ public class ArrayTest {
 
         for (int i = 0; i <ints.length ; i++) {
             System.out.println(ints[i]);
+        }
+
+        //for-each循环：iter+Tab 快捷键
+        for (double aDouble : doubles) {
+            System.out.println(aDouble);
         }
 
     }
