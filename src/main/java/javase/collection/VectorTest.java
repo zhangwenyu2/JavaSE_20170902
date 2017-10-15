@@ -23,7 +23,7 @@ public class VectorTest {
 
         strings.remove("a");
 
-        strings.set(0, "test");
+        strings.set(2, "test");
 
         System.out.println(strings.size()); // 101
         System.out.println(strings.capacity()); // ?
