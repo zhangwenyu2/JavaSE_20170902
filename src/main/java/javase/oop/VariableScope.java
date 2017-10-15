@@ -4,7 +4,7 @@ public class VariableScope {
 
 
     public void m() {
-        i = 0;
+        i = 100;
         test(1d);
     }
 
@@ -22,12 +22,14 @@ public class VariableScope {
             System.out.println(j);
         }
 
-//        int i = 10000;
-
+       int i = 10000;
         System.out.println(i);
+
+
     }
 
     public static void main(String[] args) {
         test(1d);
+        System.out.println(i);
     }
 }

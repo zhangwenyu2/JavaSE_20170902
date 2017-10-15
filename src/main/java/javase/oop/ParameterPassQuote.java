@@ -26,6 +26,6 @@ public class ParameterPassQuote {
         ParameterPassQuote parameterPass = new ParameterPassQuote(0);
         System.out.println(parameterPass.getI()); // 0
         method(parameterPass);
-        System.out.println(parameterPass.getI()); // ? 0
+        System.out.println(parameterPass.getI()); // 1
     }
 }
