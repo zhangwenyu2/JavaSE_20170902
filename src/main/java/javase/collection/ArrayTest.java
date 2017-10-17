@@ -30,6 +30,10 @@ public class ArrayTest {
         //for-each循环：iter+Tab 快捷键
         for (double aDouble : doubles) {
             System.out.println(aDouble);
+
+            Object[] array = new Object[10];
+            array[0] = 1;
+            array[1] = "hi";
         }
 
     }
