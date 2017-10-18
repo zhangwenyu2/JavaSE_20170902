@@ -17,17 +17,17 @@ public class ArrayListTest extends ArrayList {
 
         System.out.println(strings.get(2));
 
-        for (String string : strings) {
-//            System.out.println(string);
-        }
+//        for (String string : strings) {
+////            System.out.println(string);
+//        }
 
         System.out.println("--------->"+strings.size());
 
-        for (int i = 0; i < strings.size(); i++) {
-//            System.out.println(strings.get(i));
-        }
+//        for (int i = 0; i < strings.size(); i++) {
+////            System.out.println(strings.get(i));
+//        }
 
-        System.out.println(strings); // 没有get容量的方法，但有容量的概念
+//        System.out.println(strings); // 没有get容量的方法，但有容量的概念
 
         ArrayList<Integer> integers = new ArrayList<>(100000);
         integers.add(1);
@@ -36,15 +36,16 @@ public class ArrayListTest extends ArrayList {
 
         ArrayList<Integer> integers1 = new ArrayList<>();
         integers1.addAll(integers);
+
         System.out.println(integers.contains(1));
         System.out.println("index: "+integers.indexOf(1));
 //        integers1.remove(1);
 //        integers1.clear();
         integers1.set(0, 3);
         System.out.println(integers1.isEmpty());
-        for (Integer integer : integers1) {
-            System.out.println(integer);
-        }
+//        for (Integer integer : integers1) {
+//            System.out.println(integer);
+//        }
 
         System.out.println(integers1.toString()); // ?
 

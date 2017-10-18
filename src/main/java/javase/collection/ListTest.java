@@ -7,7 +7,7 @@ import java.util.Vector;
 public class ListTest {
     public static void main(String[] args) {
         // option + command + U
-//        List
+//       List
         Vector<Integer> integers = new Vector<>();
         integers.add(1);
         integers.add(-1);
