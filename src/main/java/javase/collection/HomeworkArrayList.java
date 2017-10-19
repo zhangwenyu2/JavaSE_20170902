@@ -12,7 +12,8 @@ public class HomeworkArrayList {
         for (int i = 0; i < 10; i++) {
             strings.add("hi");
         }
-        strings.add("hello");
+
+
 
         System.out.println(strings.size()); // 11
 
@@ -23,7 +24,7 @@ public class HomeworkArrayList {
         Field field = ArrayList.class.getDeclaredField("elementData");// java.lang.reflect
         field.setAccessible(true);
 
-        strings.trimToSize();
+//        strings.trimToSize();
 
         System.out.println(((Object[]) field.get(strings)).length);
 //        ensure 确保\ [ɪn'ʃɔː\;\ -'ʃʊə\;\ en-]
