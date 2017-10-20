@@ -4,11 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * @author mingfei.net@gmail.com
- * @link https://github.com/thu/JavaSE_20170902/
- * @since 16:43 15 Oct 2017
- */
+
 
 // 随机生成[1， 20]数 10000 次，使用两种方法实现（java.lang.Math，java.util.Random）
 // 并判断两种方法的 效率 和 分布 (Hashtable)
