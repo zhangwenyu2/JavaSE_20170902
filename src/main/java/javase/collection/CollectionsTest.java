@@ -11,7 +11,7 @@ public class CollectionsTest {
         list.add(1);
 
 //        Collections.reverse(list); // reverse 反向\ [rɪ'vɜːs]
-        Collections.sort(list); // sort 排序\ [sɔːt]
+//        Collections.sort(list); // sort 排序\ [sɔːt]
 
         for (Integer integer : list) {
             System.out.println(integer);
