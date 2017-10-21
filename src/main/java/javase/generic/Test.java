@@ -15,13 +15,14 @@ public class Test<T extends Serializable> {
 
 //        Test<C> tc = new Test<>();
 //        System.out.println(tc.test(new C()));
+
     }
 }
 
-class A implements Serializable {
+    class A implements Serializable {
 
-}
+    }
 
-class C {
+    class C {
 
-}
+    }
