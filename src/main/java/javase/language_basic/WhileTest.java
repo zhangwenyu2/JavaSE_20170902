@@ -9,4 +9,7 @@ public class WhileTest {
         }while(i<10);    //do-while 循环控制不了第一次
     }
 
+
+
+
 }

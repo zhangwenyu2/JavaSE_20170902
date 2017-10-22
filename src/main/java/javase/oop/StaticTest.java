@@ -10,6 +10,7 @@ public class StaticTest {
         }
 
         public static void main(String[] args) {
+
             StaticTest tom = new StaticTest();
             tom.name = "Tom";
             tom.i = 1;

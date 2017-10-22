@@ -14,8 +14,8 @@ public class ExpandedArrayListMethods {
 
         ArrayList<Integer> list2 = new ArrayList<>();
         list2.add(1);
-//        list2.add(2);
-//        list2.add(3);
+        list2.add(2);
+        list2.add(3);
 
         System.out.println(list1.equals(list2));
         System.out.println(list1 == list2); // ?

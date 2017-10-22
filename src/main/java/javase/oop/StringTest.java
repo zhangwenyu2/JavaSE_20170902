@@ -17,7 +17,7 @@ public class StringTest {
 
         Integer integer = new Integer(2);
         m(integer);
-        System.out.println(integer); // 0
+        System.out.println(integer);
 
 //        boolean
 //        Boolean

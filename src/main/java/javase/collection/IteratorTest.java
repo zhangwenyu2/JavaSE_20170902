@@ -25,6 +25,8 @@ public class IteratorTest {
             System.out.println(integer);
         }
         System.out.println("---");
+
+
         Iterator<Integer> iterator = list.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());

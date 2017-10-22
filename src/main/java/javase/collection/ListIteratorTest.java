@@ -14,15 +14,18 @@ public class ListIteratorTest {
 
         ListIterator<Integer> listIterator = list.listIterator();
 
-
         while (listIterator.hasNext()) {
             Integer next =  listIterator.next();
             System.out.println(next);
         }
 
+
         System.out.println("---");
         while (listIterator.hasPrevious()) {
             System.out.println(listIterator.previous());
         }
+
+
+
     }
 }

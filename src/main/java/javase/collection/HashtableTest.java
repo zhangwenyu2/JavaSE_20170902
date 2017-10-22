@@ -39,8 +39,8 @@ public class HashtableTest {
 //
 //        System.out.println(hashtable.containsKey("k3"));
 //
-//        System.out.println(hashtable.containsValue("v3"));
-//        System.out.println(hashtable.contains("v3"));
+        System.out.println(hashtable.containsValue("v3"));
+        System.out.println(hashtable.contains("v3"));
 //
 //        System.out.println(hashtable.size());
 //        hashtable.put("k1", "v11");
