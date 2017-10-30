@@ -23,7 +23,7 @@ public class FileTest {
 
 //        file.deleteOnExit();
 
-//        Thread.sleep(1000 * 10);
+//        thread.sleep(1000 * 10);
 
 //        System.out.println(file.getAbsoluteFile().toString());
 //        System.out.println(file.getAbsolutePath());
