@@ -13,8 +13,7 @@ public class MT5 implements Runnable {
         thread2.start();
 // -----------------------------------------
 
-        public MT5() {
-        }try {
+        try {
             thread2.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
